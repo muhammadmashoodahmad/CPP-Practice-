@@ -5,7 +5,7 @@ int main()
 	int amount,remaining;
 	cout<<"Enter The Amount:";
 	cin>>amount;
-	if(amount<<50000)
+	if(amount<=50000)
 	{
 		if(amount%100==0)
 		{
